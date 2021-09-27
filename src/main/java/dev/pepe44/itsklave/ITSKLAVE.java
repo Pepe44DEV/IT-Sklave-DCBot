@@ -20,6 +20,7 @@ public class ITSKLAVE {
     public PlayerManager playerManager;
     public JDA bot;
     private CommandManager cmdMan;
+    public static final String CHANNEL_ROLES = "892019593672003675";
 
     public static void main(String[] args) throws LoginException {
         new ITSKLAVE();
@@ -27,7 +28,7 @@ public class ITSKLAVE {
     public ITSKLAVE() throws LoginException {
         INSTANCE = this;
 
-        JDABuilder b = JDABuilder.createDefault("ODkwMjU2OTEyNDUxNTEwMzE0.YUtKXA.eAdoogftjjrWUcBiXbvmA3k3mVg");
+        JDABuilder b = JDABuilder.createDefault("");
         b.setActivity(Activity.playing("#help"));
         b.setStatus(OnlineStatus.ONLINE);
 
