@@ -24,6 +24,7 @@ public class CommandManager {
         this.commands.put("help", new HelpCommand());
         this.commands.put("play", new PlayCommand());
         this.commands.put("stop", new StopCommand());
+        this.commands.put("roles", new RolesCommand());
     }
     public boolean perform(String command, Member m, TextChannel channel, Message message){
         ServerCommand cmd;

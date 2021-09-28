@@ -20,7 +20,7 @@ public class ITSKLAVE {
     public PlayerManager playerManager;
     public JDA bot;
     private CommandManager cmdMan;
-    public static final String CHANNEL_ROLES = "892019593672003675";
+    public static final String CHANNEL_ROLES = "892020467903397928";
 
     public static void main(String[] args) throws LoginException {
         new ITSKLAVE();
