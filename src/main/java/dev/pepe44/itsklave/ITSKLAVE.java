@@ -37,7 +37,7 @@ public class ITSKLAVE {
         this.cmdMan = new CommandManager();
         b.addEventListeners(new CommandListener());
         bot = b.build();
-        System.out.println("Bot online");
+        System.out.println("Bot online. YeaY");
 
         AudioSourceManagers.registerRemoteSources(audioPlayerManager);
         audioPlayerManager.getConfiguration().setFilterHotSwapEnabled(true);
