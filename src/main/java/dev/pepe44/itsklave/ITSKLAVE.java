@@ -23,16 +23,12 @@ public class ITSKLAVE {
     public static final String CHANNEL_ROLES = "892020467903397928";
 
     public static void main(String[] args) throws LoginException {
-        if(args.length != 1) {
-            System.out.println("Argument wrong. Token needed");
-            System.exit(-1);
-        }
-        new ITSKLAVE(args[0]);
+        new ITSKLAVE();
     }
-    public ITSKLAVE(String token) throws LoginException {
+    public ITSKLAVE() throws LoginException {
         INSTANCE = this;
 
-        JDABuilder b = JDABuilder.createDefault(token);
+        JDABuilder b = JDABuilder.createDefault(System.getenv("TOKEN"));
         b.setActivity(Activity.playing("#help"));
         b.setStatus(OnlineStatus.ONLINE);
 
