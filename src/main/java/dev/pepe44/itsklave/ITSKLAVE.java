@@ -28,7 +28,7 @@ public class ITSKLAVE {
     public ITSKLAVE() throws LoginException {
         INSTANCE = this;
 
-        JDABuilder b = JDABuilder.createDefault("");
+        JDABuilder b = JDABuilder.createDefault("ODkwMjU2OTEyNDUxNTEwMzE0.YUtKXA.FH8V71hMtkr0NfTRlx7HNd36_gg");
         b.setActivity(Activity.playing("#help"));
         b.setStatus(OnlineStatus.ONLINE);
 

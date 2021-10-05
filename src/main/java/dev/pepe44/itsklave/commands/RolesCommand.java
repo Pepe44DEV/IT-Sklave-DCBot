@@ -20,6 +20,14 @@ public class RolesCommand implements ServerCommand {
         channel.sendMessage(builder.build()).queue(message1 ->  {
             message1.addReaction("overwatch:892316262670147604").queue();
             message1.addReaction("league:892325560745865296").queue();
+            message1.addReaction("rl:893566703626256484").queue();
+            message1.addReaction("val:893566287274446858").queue();
+            message1.addReaction("csgo:893566103668809728").queue();
+            message1.addReaction("r6:893565946646655006").queue();
+            message1.addReaction("mc:893565688504008714").queue();
+            message1.addReaction("apex:893565302351228989").queue();
+            message1.addReaction("battlefield:893565108113006645").queue();
+            message1.addReaction("cod:893564297337253908").queue();
         });
 
 
